@@ -6,8 +6,16 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-nltk.download('punkt')
-nltk.download('stopwords')
+# ✅ Safe download of punkt and stopwords
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
 
 # Load model and vectorizer
 model = joblib.load("sentiment_model.pkl")
