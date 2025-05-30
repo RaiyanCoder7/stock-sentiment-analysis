@@ -26,7 +26,11 @@ def clean_text(text):
     text = str(text).lower()
     text = re.sub(r"http\S+|www\S+|https\S+", '', text)
     text = text.translate(str.maketrans('', '', string.punctuation))
-    words = word_tokenize(text)
+    
+    # 🚫 Avoid NLTK's word_tokenize
+    # ✅ Use simple split for tokenization
+    words = text.split()
+    
     words = [w for w in words if w not in stop_words]
     return ' '.join(words)
 
