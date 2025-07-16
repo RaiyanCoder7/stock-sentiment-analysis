@@ -6,7 +6,7 @@ This project is a **Machine Learning web application** that analyzes stock-relat
 
 ## 🚀 Project Overview
 
-- 🗞️ **Input**: Stock market news headlines (e.g., "Company shares soar after earnings report")
+- 🗞️ **Input**: Stock market news headlines (e.g.,"Company shares soar after earnings report")
 - 🧠 **Model**: Logistic Regression
 - 📊 **Vectorizer**: TF-IDF (Text Feature Extraction)
 - 📁 **Dataset Source**: Kaggle - [Yash612 Stock Market News Dataset](https://www.kaggle.com/datasets/yash612/stock-market-news-dataset)
