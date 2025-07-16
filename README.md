@@ -11,7 +11,7 @@ This project is a **Machine Learning web application** that analyzes stock-relat
 - 📊 **Vectorizer**: TF-IDF (Text Feature Extraction)
 - 📁 **Dataset Source**: Kaggle - [Yash612 Stock Market News Dataset](https://www.kaggle.com/datasets/yash612/stock-market-news-dataset)
 - 🎯 **Target**: Binary classification (Positive = 1, Negative = -1)
-- ✅ **Achieved Accuracy**: ~79%
+- ✅ **Achieved Accuracy**: ~80%
 - 🌐 **Frontend**: Streamlit
 
 ---
