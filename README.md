@@ -1,6 +1,6 @@
 # 📈 Stock News Sentiment Analysis Web App
 
-This project is a **Machine Learning web application** that analyzes stock-related news headlines and predicts whether the sentiment is **positive** or **negative**. It helps investors quickly understand the emotional tone of news that could impact market decisions.
+This project is a **ML web application** that analyzes stock-related news headlines and predicts whether the sentiment is **positive** or **negative**. It helps investors quickly understand the emotional tone of news that could impact market decisions.
 
 ---
 
